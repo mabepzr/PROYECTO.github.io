@@ -1,0 +1,64 @@
+* {
+	font-family: Courier New;
+}
+
+
+body, header, main, aside, footer {
+	padding: 10px;
+        margin: 15px;
+        text-align: center;
+}
+
+
+body {
+	background-color: #ffffff;
+}
+
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #dcf1fa;
+}
+
+
+.menu {
+	background-color: #a1cfe3;
+        list-style: none;
+        padding: 0;
+        margin: auto;
+}
+
+
+#formulario {
+	padding: 20px;
+}
+
+#formulario input, select {
+	margin: 15px;
+	margin-bottom: 30px;
+	padding: 20px;
+	width: 200px;
+}
+
+.aside_lista {
+	list-style: none;
+}
+
+#formulario input[type="submit"] {
+	margin: 50px;
+	width: 200px;
+}
+.footer {
+	text-align: center;
+}

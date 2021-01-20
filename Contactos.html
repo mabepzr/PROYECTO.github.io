@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="./css/nuevo_esti.css">
+	<title>Pro-Dental Contactos</title>
+</head>
+<body>
+	
+        <h1>Contáctenos</h1>
+            <ul class="menu">  <!--lista no ordenada-->
+                <li><a href = "Inicio.html">Inicio</a></li>
+                <li><a href = "QuienesSomos.html">Quienes somos</a></li>
+                <li><a href = "Servicios.html">Servicios</a></li>
+                <li><a href = "Contactos.html">Contactos</a></li>
+            </ul>
+    
+        <section class="contenedor">
+	<header class="cabecera">
+		
+	</header>
+	<nav>
+		<h1> 
+		<img src="./imagenes/mapa.png" align="center" width="900" height="300">
+		</h1>
+		<ul>
+		
+                    
+                        
+                    <h3> Dirección</h3>
+                    <p> José de Antepara & El Oro, Guayaquil 090305</p>
+                    <h3> Horario de atención</h3>
+                    <p> Lunes           9:00–19:00 </p>
+                    <p>
+                        Martes          9:00–19:00 </p>
+                    <p> Miércoles	9:00–19:00 </p>
+                    <p> Jueves          9:00–19:00 </p>
+                    <p> Viernes         9:00–19:00 </p>
+                    <p> Sábado          9:00–19:00 </p>
+                    <p> Domingo         Cerrado    </p>
+                    
+                    
+	</nav>
+	<section class="menu">
+		<h5></h5>
+		<aside>
+			<h2>¿Le gustaría agendar una cita?</h2>
+  <form name="frmPrueba" method="POST" target="_self"  onsubmit="validarDatos()"
+        action="cita.php" >
+        
+        <label for=""><br>Nombre</label><br>
+        <input type="text" name="txtnombre" id="apellido" required>
+        <br>
+        
+        <label for=""><br>Fecha</label><br>
+        <input type="fecha" name="txtfecha" id="fecha" required>
+        <br>
+        
+        <label for=""><br>Telefono</label><br>
+        <input type="telefono" name="txttelefono" id="telefono" required>
+        <br>
+        
+      <label for=""><br>Tipo de servicio </label><br>
+        <select name="txtservicio" id="servicio">
+        <option value="Ortodoncia">Ortodoncia</option>
+        <option value="Odontopediatria">Odontopediatria</option>
+        <option value="Rehabilitacion Oral">Rehabilitacion Oral</option>
+        <option value="Cirugia">Cirugia</option>
+
+        </select>
+        <br>
+        
+        <label for="">Seleccione procedimiento</label><br>
+        <select name="txtprocedimiento" id="procedimiento">
+        </select>
+        <br>
+        
+        <input type="submit" name="" id="">
+    </for
+    <div>
+        <li id="lista">
+
+        </li>
+    </div>
+    <script src="js/func.js" type="text/javascript"></script>
+
+		</aside>	
+	</section>
+	<footer class="pie">
+	</footer>
+</section>
+
+</body>
+</html>
